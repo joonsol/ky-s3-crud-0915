@@ -7,7 +7,7 @@ const UploadForm = () => {
         <input type="file" className='file-btn' />
         <input type="text" placeholder='title'/>
         <input type="text" placeholder='description'/>
-        <button type='submit'>upload</button>
+        <button type='submit' className='upload-btn'>upload</button>
     </form>
   )
 }
